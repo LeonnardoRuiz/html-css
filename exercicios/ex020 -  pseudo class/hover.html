@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        div{display: inline-block;
+            border: 1px solid black;
+            text-align: center;
+            height: 80px;
+            width: 200px;}
+        
+        div > p {display: none;}
+        div > a {display: none;}
+
+        div:hover > p { display: block;
+                        color: black;
+                        background-color: white;}
+                        
+        div:hover > a { display: block;
+                        color: black;
+                        background-color: white;}
+        
+    </style>
+</head>
+<body>
+    
+        <div>kits incriveis
+            <a href="pseudoclasse.html">
+                <p>kitinho</p>
+            </a>
+            <p>kitão</p>
+        </div>
+        <div>por categorias
+            <p>sabonete</p>
+            <p>hidratante</p>
+        </div>
+        <div>por necessidades
+            <p>espinha</p>
+            <p>pele ressecada</p>
+        </div>
+        <div>por ingredientes
+            <p>retinol</p>
+            <p>acido hialuronico</p>
+        </div>
+        <div>por linhas
+            <p>pele oleosa</p>
+            <p>argila rosa</p>
+         </div>
+    
+</body>
+</html>

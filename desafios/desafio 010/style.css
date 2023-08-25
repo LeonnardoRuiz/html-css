@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+:root{
+    -cor0: #d4d3d391;
+    -cor1: #148f8f;
+    -cor2: #70c0c0;
+    -cor3: #c2d4d4,;
+    -cor4: #015252;}
+
+    *{margin: 0px;
+      padding: 0px;}
+
+body{background-color: #d4d3d391;}
+
+p{text-indent: 2em;}
+
+.row {
+    display: flex;
+  }
+
+header{background-image: linear-gradient(to bottom, #148f8f81, #70c0c07a, #c2d4d448);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    padding: 10px;
+    text-align: center;}
+
+
+
+nav{text-align: left;
+padding: 0px;
+margin: 0px;}
+
+header > nav > a{
+    font-weight: bold;
+    font-size: small;
+    text-decoration: none;
+    color: #015252;
+    padding: 6px;
+}
+header > nav > a:hover {color: #148f8f;
+     background-color: #70c0c0;
+     border-radius: 2px;}
+
+header > p {
+     margin: 0px 0px 30px 0px;}
+
+main{border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     min-width: 300px;
+     max-width: 1000px;
+     background-color: #ffffff;
+     width: 640px;
+     margin: 0px auto;
+     font-family: Arial, Helvetica, sans-serif;}
+
+main p{line-height: 1.5em;
+       font-size: 16px;
+       padding: 6px 20px 0 20px;}
+
+#titulo1 {font-family: Arial, Helvetica, sans-serif/*idroid.otf*/;
+         color: darkcyan;
+         font-size: 37px;
+         text-align: center;}
+
+.titulo{
+        background-image: linear-gradient(to right, #148f8f81, #70c0c07a, #c2d4d400);
+        color: #015252;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+a.ref{color: darkcyan;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 1.4px;}
+
+
+img{ margin: auto;
+}
+
+#img1{
+    width: 100%;
+}
+
+#img2{
+    width: 100%;
+}
+
+#img3{
+    margin: auto;
+
+}
+#video{
+    display: flex;
+    justify-content: center;
+    background-color: #148f8f;
+}
+
+aside#lista{
+    background-color: #70c0c0;
+    padding: 15px auto;
+    border-radius: 10px;
+    margin: 23px 40px;
+}
+
+h3{background-color: #015252 ;
+color: white;
+padding: 5px;
+border-radius: 10px 10px 7px 7px;}
+
+ul{
+    padding: 7px 25px 0pc 25px;
+}
+
+footer{
+    background-color: #015252;
+    color: white;
+    margin: 0px 30px 0px 0px;
+    padding: 1.2px;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+ul li:before {
+    content: '✓';
+    font-weight: bolder;
+}
